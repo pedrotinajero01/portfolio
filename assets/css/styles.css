@@ -1,0 +1,49 @@
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: "PT+Sans", sans-serif
+}
+
+header {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #main {
+        margin-left: 0;
+    }
+
+    header {
+        text-align: center;
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    h1.w3-jumbo {
+        font-size: 3rem !important;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+}
+
+#main {
+    margin-left: 120px
+}
+
+.profile-pic {
+    width: min(350px, 80vw);
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.w3-sidebar {
+    width: 120px;background: #222;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
